@@ -1,8 +1,11 @@
+html {
+  margin-left: 200px;
+}
 #navbar {
   top: 0px;
   margin: 0px;
   left: 0px;
-  width: 300px;
+  width: 200px;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
@@ -21,12 +24,17 @@
   padding-left: 30px;
   list-style: none;
   position: relative;
-  left: -50px;
+  left: -20px;
   width: 100%;
+  font-weight: 500;
 }
 @media screen and (max-width: 350px) {
   .navbar a {
     text-align: center;
     float: none;
   }
+}
+.nav-link {
+  margin-left: 20px;
+  line-height: 20px;
 }
